@@ -13,7 +13,7 @@ CREATE TABLE produtos(
 	descricao VARCHAR(30) NOT NULL,
 	preco DECIMAL(8,2) NOT NULL,
 	codigo_tipo int NOT NULL,
-	PRIMARY KEY (codigo),
+	PRIMARYrKEY (codigo),
 	FOREIGN KEY (codigo_tipo) REFERENCES tipos_produto(codigo)
 );
 
